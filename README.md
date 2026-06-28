@@ -1,22 +1,34 @@
-# code-editor
+# Code Editor
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+Browser-based code editor with syntax highlighting, multi-language support, and theme switching.
 
-> Browser-based code editor with syntax highlighting and multi-language support
+## Supported languages
+
+JavaScript · TypeScript · Python · HTML · CSS · JSON · Markdown · SQL · Bash
 
 ## Features
-- 🖊️ Multi-language: JavaScript, TypeScript, Python, HTML
-- 🎨 3 built-in themes (Dark, Ocean, Forest)
-- 📋 One-click copy to clipboard
-- 📊 Live line & character counter
 
-## Tech Stack
-`React 18` · `TypeScript` · `Vite`
+- Syntax highlighting per language
+- Line numbers and active line highlight
+- Multiple themes: Dark, Light, Monokai, Dracula, GitHub
+- Auto-indentation and bracket matching
+- Find and replace
+- Font size control
+- Copy code and download as file
+- Tab size toggle (2 / 4 spaces)
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![CodeMirror](https://img.shields.io/badge/CodeMirror-d30707?style=flat)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
